@@ -32,7 +32,7 @@ func Prac() {
 	defer fmt.Println("This will be executed last")
 	fmt.Println("This will be executed first")
 	a := 42
-	p := &a // p is a pointer to x
+	p := &a
 	fmt.Println(*p)
 	person := Person{
 		FirstName: "John",
